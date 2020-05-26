@@ -1,0 +1,294 @@
+@media  screen and (max-width: 1305px) {
+    .logo{
+        width: 18%;
+        margin-top: 10px;
+    }
+    .logo img{
+        width: 200px;
+        height: 100px;
+    }
+    .curve{
+        left: 227px;
+        top: -101px;
+        width: 180px;
+        height: 180px;
+    }
+    .nav{
+        width: 10%;
+        margin-left: 200px;
+        font-size: 23px;
+    }
+    .curve-2{
+        top: -136px;
+        left: 201px;
+    }
+    .main-text{
+        width: 40%;
+    }
+    .main-image{
+        width:250px ;
+        height:250px ;
+        margin-left:90px;
+    }
+    .curve3{
+        right: -494px;
+        top: 47px;
+        width: 353px;
+        height: 353px;
+    }
+    .curve4{
+        bottom:0px;
+        top:657px;
+    }
+}   
+
+@media  screen and (max-width: 1200px) {
+   
+    .main-text{
+        width: 45%;
+    }
+    .main-image{
+        margin-left:0px;
+    }
+}
+
+@media  screen and (max-width:1030px){
+    .fa-bars{
+        display: block;
+    }
+    .curve-2{
+        top: -119px;
+    left: 890px;
+    }
+    .main-text{
+        margin-left: 0px;
+    }
+    button{
+        padding: 22px 40px;
+        font-size: 12px;
+       
+    }
+}
+
+@media  screen and (max-width: 992px) {
+   
+    .logo img {
+        width: 174px;
+        height: 80px;
+    }
+    .curve{
+        left: 173px;
+        top: -89px;
+        width: 160px;
+        height: 160px;
+    }
+    .nav{
+        width: 50%;
+        margin-left: 0px;
+        font-size:18px ; 
+    }
+    .icon {
+        text-align: left;
+    }
+    .curve-2{
+        top: -215px;
+        left: 865px;
+        width: 150px;
+        height: 150px;
+    }
+    .fa-search{
+        font-size: 24px;
+    }
+    .main-text{
+        width: 48%;
+    }
+    .main-text h1{
+        font-size: 40px;
+    }
+    span{
+        font-size: 40px;
+    }
+    .main-text p{
+        font-size: 18px;
+    }
+    .btns{
+        margin-left: 190px;
+    }
+    button{
+        font-size: 18px;
+    }
+    .main-image img{
+        width: 430px;
+        height: 400px;
+    }
+    .curve3{
+        top: 23px;
+        right: -376px;
+    }
+    .curve4{
+        left:-99px;
+    }
+}
+
+
+@media  screen and (max-width:772px) {
+    
+    .main{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+     .fa-search{
+         display: none;
+     }
+     .fa-bars{
+        width: 10%;
+         font-size: 35px;
+         color: black;
+     }
+     .curve{
+         display: none;
+     }
+     .curve-2{
+         display: none;
+     }
+     .curve4{
+         display: none;
+     }
+     .main-image{
+         display: none;
+     }
+     .logo img {
+        width: 250px;
+        height: 100px; 
+    }
+    .main-text{
+        width: 90%;
+    }
+    .nav {
+        width: 100%;
+    }
+    .main-text h1{
+        font-size: 50px;
+    }
+     span{
+        font-size: 50px;
+    }
+    .main-text p{
+        font-size: 20px;
+    }
+    button{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:610px){
+   
+    .banner{
+        margin-left: 0px;
+    }
+    .fa-bars{
+        width: 10%;
+         font-size: 35px;
+         color: black;
+     }
+    .btns{
+        margin-left:0px;
+        margin-top: 20px;
+    }
+    .logo img{
+        width: 180px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .banner{
+        margin-top: 8s0px;
+    }
+    .main-text h1{
+        margin-left: 0px;
+        font-size: 40px;
+    }
+    span{
+        font-size: 40px;
+    }
+    .main-text p{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width:388px){                   
+  
+    .banner{
+        margin-left: 0px;
+    }
+    .btns{
+        margin-left:0px;
+    }
+    .logo img{
+        width: 180px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+    .main-text h1{
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .main-text p{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width:375px){
+   
+    .banner{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .btns{
+        margin-left: 30px;
+    }
+}
+
+@media  screen and (max-width:325px){
+   
+    .banner{
+        margin-left: 0px;
+    }
+    .btns{
+        margin-left:0px;
+    }
+    .logo img{
+        width: 180px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .banner{
+        margin-top: 20px;
+    }
+    .main-text h1{
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    span{
+        font-size: 30px;
+    }
+    .main-text p{
+        margin-left: 0px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+  

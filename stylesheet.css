@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 280px;
+    height: 100px;
+}
+
+/* .curve {
+    position: absolute;
+    top: -102px;
+    left: 252px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 32, 165);
+    border-radius: 52%;
+    z-index: -1;
+} */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.nav a {
+    padding: 5px 20px;
+    color: rgb(17, 22, 54);
+    border-radius: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+    background: linear-gradient(rgb(0, 201, 247, 0.7), rgb(4, 32, 165));
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    width: 12%;
+    margin-top: 45px;
+    text-align: left;
+
+}
+
+.fa-search {
+    margin-top: 5px;
+    color: rgb(5, 86, 192);
+    font-size: 30px;
+    text-align: right;
+}
+
+.curve-2 {
+    position: absolute;
+    top: -81px;
+    right: -54px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(rgb(0, 201, 247, 0.7), rgb(4, 32, 165));
+    border-radius: 52%;
+}
+
+.banner {
+    width: 97%;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.main-text {
+    width: 38%;
+    margin-left: 17px;
+}
+
+.main-text h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+}
+
+.main-text p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+}
+
+.main-image {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin-left: 70px;
+}
+
+.curve3 {
+    position: absolute;
+    top: 47px;
+    right: -166px;
+    width: 450px;
+    height: 450px;
+    border: 30px solid rgba(244, 228, 229, 0.5);
+    border-radius: 52%;
+}
+
+button {
+    padding: 20px 45px;
+    color: white;
+    background: linear-gradient(rgb(0, 201, 247, 0.7), rgb(4, 32, 165));
+    border-radius: 40px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btns {
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.curve4 {
+    position: absolute;
+    bottom: -79px;
+    left: -80px;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(rgb(0, 201, 247, 0.7), rgb(4, 32, 165));
+    border-radius: 52%;
+}
+
+/* .curve4{
+    top: 532px;
+    transform: rotate(45deg);
+    left: -50px;
+    clip-path: circle(50.7% at 50% 97%);
+    background: linear-gradient( rgb(0,201,247,0.7), rgb(4, 32, 165));
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+} */
+
+#menu1 {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
